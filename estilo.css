@@ -140,6 +140,38 @@ body{
 
 }
 
+
+@media screen and (max-width: 430px) {
+    .IMG1{
+        margin-left: 0%;
+        width: 290px;
+        height: 150px;
+
+    }
+    .IMG2{
+        width: 290px;
+        height: 150px;
+
+    }
+    .IMG3{
+        width: 290px;
+        height: 150px;
+
+    }
+    .IMG4{
+        margin-left: 0%;
+        width: 290px;
+        height: 150px;
+
+    }
+    
+    .IMG5{
+         width: 290px;
+         height: 150px;
+    }
+    
+}
+
 .exi{
     margin-right: 0%;
     width: 30px;
