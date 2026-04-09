@@ -1,0 +1,224 @@
+body{
+    background-image: url(Fweb.jpg);
+    
+}
+
+
+/* ESTILOS DE INDEX*/
+.div1{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5%;
+    border-color: rgb(70, 26, 0);
+    border-width: 20px;
+    padding-top: 5%;
+    padding-left:  5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+
+    background-image: url(piza.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+.IMG1{
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+    margin-left: 12%;
+    margin-right: 5%;
+    width: 350px;
+    height: 300px;
+}
+
+.IMG2{
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+    margin-right: 5%;
+    width: 350px;
+    height: 300px;
+}
+
+.IMG3{
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+    margin-right: -5%;
+    width: 350px;
+    height: 300px;
+
+}
+
+.IMG4{
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 5%;
+    width: 350px;
+    height: 300px;
+}
+
+.IMG5{
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+    margin-top: 1%;
+    width: 350px;
+    height: 300px;
+
+}
+
+
+@media screen and (max-width: 1660px) {
+    .IMG1{
+        margin-left: 15%;
+        width: 200px;
+        height: 150px;
+
+    }
+    .IMG2{
+        width: 200px;
+        height: 150px;
+
+    }
+    .IMG3{
+        width: 200px;
+        height: 150px;
+
+    }
+    .IMG4{
+        margin-left: 26%;
+        width: 200px;
+        height: 150px;
+
+    }
+    
+    .IMG5{
+         width: 200px;
+         height: 150px;
+    }
+
+
+}
+
+@media screen and (min-width: 1661px){
+    .IMG1{
+        margin-left: 7%;
+        width: 250px;
+        height: 150px;
+
+    }
+    .IMG2{
+        width: 250px;
+        height: 150px;
+
+    }
+    .IMG3{
+        width: 250px;
+        height: 150px;
+
+    }
+    .IMG4{
+        margin-left: 22%;
+        width: 250px;
+        height: 150px;
+
+    }
+    
+    .IMG5{
+         width: 250px;
+         height: 150px;
+    }
+
+
+}
+
+.exi{
+    margin-left: -95%;
+    margin-right: 0%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.Titulos{
+    color: rgb(255, 255, 255);
+}
+
+/* ESTILOS DE PAV*/
+.PAV{
+    background-image: url(piza.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+}
+
+.fig{
+    width: 15
+    0px;
+    height: 100px;
+    
+}
+/* ESTILOS DE AT*/
+.AT{
+    background-image: url(piza.png);
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+    
+}
+
+/* ESTILOS DE T*/
+.T{
+    background-image: url(piza.png);
+    background-repeat: repeat;
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+}
+
+/* ESTILOS DE LRSC*/
+.LRSC{
+    background-image: url(piza.png);
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+}
+
+/* ESTILOS DE C*/
+.C{
+    background-image: url(piza.png);
+    border-style: solid;
+    border-radius: 1%;
+    border-color: black;
+}
+
+
+/* ESTILOS DE FOOTER*/
+
+footer{
+    background-color: rgb(158, 158, 158);
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+   
+}
